@@ -4,6 +4,7 @@
   "values": [
     "#tfc:foods/dairy",
     "#tfc:foods/cooked_meats",
-    "#tfc:foods/preserves"
+    "#tfc:foods/preserves",
+    "tfc:food/cooked_egg"
   ]
 }
