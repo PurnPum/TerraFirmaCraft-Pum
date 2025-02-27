@@ -48,3 +48,15 @@ jobs:
         arguments: build
       env:
         VERSION: ${{ steps.version.outputs.result }}
+    - name: Publish to GitHub Releases
+      id: publish
+      if: ${{ steps.version.outputs.result != 'alpha' && success() }}
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ github.ref }}
+        draft: true
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+        name: TerraFirmaCraft 1.20.1-${{ steps.version.outputs.result }}
+        changelog-file: CHANGELOG.md
+
