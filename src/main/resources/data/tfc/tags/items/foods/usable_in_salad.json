@@ -4,6 +4,7 @@
   "values": [
     "#tfc:foods/fruits",
     "#tfc:foods/vegetables",
-    "#tfc:foods/cooked_meats"
+    "#tfc:foods/cooked_meats",
+    "tfc:food/boiled_egg"
   ]
 }
