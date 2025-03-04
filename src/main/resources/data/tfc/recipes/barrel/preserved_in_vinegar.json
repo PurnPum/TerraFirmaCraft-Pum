@@ -16,6 +16,9 @@
           },
           {
             "tag": "tfc:foods/meats"
+          },
+          {
+            "item": "tfc:food/boiled_egg"
           }
         ]
       }
