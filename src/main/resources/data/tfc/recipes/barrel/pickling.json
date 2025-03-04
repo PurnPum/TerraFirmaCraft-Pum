@@ -21,7 +21,7 @@
               "tag": "tfc:foods/meats"
             },
             {
-              "tag": "tfc:food/boiled_egg"
+              "item": "tfc:food/boiled_egg"
             }
           ]
         }
